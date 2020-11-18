@@ -2,7 +2,7 @@
 Repo for Udacity's data wrangling project as part of data analyst  Nanodegree
 
 ## Introduction
-Real-world data rarely comes clean. Using Python and its libraries, you will gather data from a variety of sources and in a variety of formats, assess its quality and tidiness, then clean it. This is called data wrangling. You will document your wrangling efforts in a Jupyter Notebook, plus showcase them through analyses and visualizations using Python (and its libraries) and/or SQL.
+The goal of this project is to assess and clean at least 8 quality issues and at least 2 tidiness issues in this WeRateDogs tewwts datasets.
 
 ## The Data
 The dataset that is used is the tweet archive of Twitter user @dog_rates, also known as WeRateDogs. WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog.
