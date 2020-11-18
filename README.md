@@ -14,9 +14,6 @@ There are three main pieces of data that need to be gathered for this project:
 - The tweet image predictions, i.e., what breed of dog (or other object, animal, etc.) is present in each tweet according to a neural network. This file (image_predictions.tsv) is hosted on Udacity's servers and should be downloaded programmatically using the Requests library and the following URL: https://d17h27t6h515a5.cloudfront.net/topher/2017/August/599fd2ad_image-predictions/image-predictions.tsv
 - Each tweet's retweet count and favorite ("like") count at minimum, and any additional data one finds interesting. Using the tweet IDs in the WeRateDogs Twitter archive, the Twitter API is queried for each tweet's JSON data using Python's Tweepy library and each tweet's entire set of JSON data is stored in a file called tweet_json.txt file. Each tweet's JSON data is then written to its own line. This .txt file is read line by line into a pandas DataFrame with (at minimum) tweet ID, retweet count, and favorite count.
 
-### Additional Data via the Twitter API
-Retweet count and favorite count are gathered from Twitter's API using the WeRateDogs Twitter archive and specifically the tweet IDs within it.
-
 ## Software Requirements
 
 You need to be able to work in a Jupyter Notebook on your computer. 
