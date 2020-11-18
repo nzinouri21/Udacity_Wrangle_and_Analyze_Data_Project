@@ -2,7 +2,7 @@
 Repo for Udacity's data wrangling project as part of data analyst  Nanodegree
 
 ## Introduction
-The goal of this project is to assess and clean at least 8 quality issues and at least 2 tidiness issues in this WeRateDogs tewwts datasets.
+The goal of this project is to assess and clean at least 8 quality issues and at least 2 tidiness issues in this WeRateDogs tweets datasets.
 
 ## The Data
 The dataset that is used is the tweet archive of Twitter user @dog_rates, also known as WeRateDogs. WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog.
