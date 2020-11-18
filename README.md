@@ -4,16 +4,17 @@ Repo for Udacity's data wrangling project as part of data analyst  Nanodegree
 ## Introduction
 Real-world data rarely comes clean. Using Python and its libraries, you will gather data from a variety of sources and in a variety of formats, assess its quality and tidiness, then clean it. This is called data wrangling. You will document your wrangling efforts in a Jupyter Notebook, plus showcase them through analyses and visualizations using Python (and its libraries) and/or SQL.
 
-## Data
-The dataset that you will be wrangling (and analyzing and visualizing) is the tweet archive of Twitter user @dog_rates, also known as WeRateDogs. WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog.
+## The Data
+The dataset that is used is the tweet archive of Twitter user @dog_rates, also known as WeRateDogs. WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog.
+The WeRateDogs Twitter archive contains basic tweet data for all 5000+ of their tweets. Rating, dog name, and dog "stage" (i.e. doggo, floofer, pupper, and puppo) is extracted from each tweet's text to make this Twitter archive "enhanced." Of the 5000+ tweets, the data is filtered for tweets with ratings only (there are 2356).
 
-## What Software Do I Need?
-The entirety of this project can be completed inside the Udacity classroom on the Project Workspace: Complete and Submit Project page using the Jupyter Notebook provided there. (Note: This Project Workspace may not be available in all versions of this project, in which case you should follow the directions below.)
+### Additional Data via the Twitter API
+Retweet count and favorite count are gathered from Twitter's API using the WeRateDogs Twitter archive and specifically the tweet IDs within it.
 
-If you want to work outside of the Udacity classroom, the following software requirements apply:
+## Software Requirements
 
-You need to be able to work in a Jupyter Notebook on your computer. Please revisit our Jupyter Notebook and Anaconda tutorials earlier in the Nanodegree program for installation instructions.
-The following packages (libraries) need to be installed. You can install these packages via conda or pip. Please revisit our Anaconda tutorial earlier in the Nanodegree program for package installation instructions.
+You need to be able to work in a Jupyter Notebook on your computer. 
+The following packages (libraries) need to be installed. 
 - pandas
 - NumPy
 - requests
